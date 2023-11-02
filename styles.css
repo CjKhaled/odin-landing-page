@@ -80,5 +80,51 @@ nav h1 {
     width: 170px;
 }
 
+/* INFORMATION SECTION */
+
+#info {
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.info-images {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.info-images article {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-images article p {
+    color: gray;
+    font-size: 15px;
+    margin-top: 0;
+    text-align: center;
+    width: 150px;
+}
+
+.info-images article .example-image {
+    width: 150px;
+    height: 150px;
+    border: 3px #3882f6 solid;
+    border-radius: 25px;
+    align-self: center;
+}
 
 
